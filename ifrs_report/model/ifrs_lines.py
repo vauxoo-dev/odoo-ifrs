@@ -113,6 +113,8 @@ class IfrsLines(models.Model):
                 # account
                 cx['analytic'] = analytic
 
+            cx['ifrs_partner'] = [p_brw.id for p_brw in brw.partner_ids]
+
             # NOTE: This feature is not yet been implemented
             # cx['partner_detail'] = cx.get('partner_detail')
 
@@ -471,6 +473,9 @@ class IfrsLines(models.Model):
     analytic_ids = fields.Many2many(
         'account.analytic.account', 'ifrs_analytic_rel', 'ifrs_lines_id',
         'analytic_id', string='Consolidated Analytic Accounts')
+    partner_ids = fields.Many2many(
+        'res.partner', 'ifrs_partner_rel', 'ifrs_lines_id',
+        'partner_id', string='Partners')
     parent_id = fields.Many2one(
         'ifrs.lines', string='Parent',
         ondelete='set null',

@@ -86,12 +86,16 @@ class AccountMoveLine(osv.osv):
             cr, uid, obj=obj, context=context)
         if context.get('analytic', False):
             list_analytic_ids = context.get('analytic')
-            ids2 = \
-                self.pool.get('account.analytic.account').search(
-                    cr, uid, [('parent_id', 'child_of', list_analytic_ids)],
-                    context=context)
+            ids2 = self.pool.get('account.analytic.account').search(
+                cr, uid, [('parent_id', 'child_of', list_analytic_ids)],
+                context=context)
             query += 'AND ' + obj + '.analytic_account_id in (%s)' % (
                 ','.join([str(idx) for idx in ids2]))
+
+        if context.get('ifrs_partner', False):
+            partner_ids = context.get('ifrs_partner')
+            query += 'AND l.partner_id in (%s)' % (
+                ','.join([str(idx) for idx in partner_ids]))
 
         # NOTE: This feature is not yet been implemented
         # if context.get('partner_detail', False):
