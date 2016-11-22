@@ -274,7 +274,7 @@
                                           <group colspan='2' attrs="{'invisible':['|',('type','!=','detail'),('help','=',False)]}">
                                               <i><label string='This field is to be filled with Partners. Partners serve as a way of filtering data from one Accounting Account. There are chances that you use one single account for multiple purposes though you have been using for a while Partners to break down the details regarding that Account. Hence you can use a combination of Accounting Account and Partners to retrieve valuable data from the Accounting system to your Line Report. Be aware that all the Accounting Account selected previously will be affected by the Partners selected here. If you want one-to-one matches you should create as many lines as you want to fulfill your requirements.'/></i>
                                           </group>
-                                          <field colspan='2' domain="[('child_ids', '=', False)]" name="partner_ids" nolabel='1' attrs="{'invisible':[('type','!=','detail')]}">
+                                          <field colspan='2' domain="['|',('is_company', '=', True),('parent_id', '=', False)]" name="partner_ids" nolabel='1' attrs="{'invisible':[('type','!=','detail')]}">
                                               <tree>
                                                   <field name='name'/>
                                               </tree>
