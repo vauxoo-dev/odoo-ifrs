@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2016-11-23 05:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -139,6 +140,8 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "A Fiscal Year is required to compute the values that will be shown in the report as a preview in the lines below"
 msgstr ""
+"Se require un Año Fiscal para calcular los valores que se mostrarán en el "
+"reporte como una previsualización en las líneas de abajo."
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_abstract_title
@@ -199,29 +202,32 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,type:0
 msgid "Abstract"
-msgstr ""
+msgstr "Abstracta"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Abstract: This type is the one you have to use to create label that just get printed in the report. This line does not bear values at all and do not make computation"
 msgstr ""
+"Abstracto: Este tipo es el que Vd. tiene que usar para crear Etiquetas que "
+"solo se impriman en el reporte. Esta línea no contiene valores en absoluto y "
+"tampoco realiza cálculos."
 
 #. module: ifrs_report
 #: model:ir.model,name:ifrs_report.model_account_period
 msgid "Account period"
-msgstr ""
+msgstr "Período Contable"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: field:ifrs.lines,acc_val:0
 msgid "Accounting Span"
-msgstr ""
+msgstr "Lapso Contable"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: field:ifrs.lines,value:0
 msgid "Accounting Value"
-msgstr ""
+msgstr "Valor Contable"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_activocirculanteinventariodemp0
@@ -236,44 +242,44 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,target_move:0
 msgid "All Entries"
-msgstr ""
+msgstr "Todas los asientos"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,report_type:0
 msgid "All Fiscalyear"
-msgstr ""
+msgstr "Todo el Año Fiscal"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,target_move:0
 msgid "All Posted Entries"
-msgstr ""
+msgstr "Todos los asientos asentados"
 
 #. module: ifrs_report
 #: help:ifrs.lines,invisible:0
 msgid "Allows whether the line of the report is printed or not"
-msgstr ""
+msgstr "Permite si la línea del reporte se imprime o no"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,help:0
 #: help:ifrs.lines,help:0
 #: help:ifrs.lines,inv_sign:0
 msgid "Allows you to show the help in the form"
-msgstr ""
+msgstr "Le permite mostrar la ayuda en el formulario"
 
 #. module: ifrs_report
 #: field:ifrs.lines,amount:0
 msgid "Amount"
-msgstr ""
+msgstr "Cantidad"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Analytic Accounts"
-msgstr ""
+msgstr "Cuentas Analíticas"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Arithmetic Operator"
-msgstr ""
+msgstr "Operador Aritmético"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_bajasdeactivosycargosdiferidos0
@@ -288,22 +294,28 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,value:0
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Balance: Will yield the Balances for the accounts being consulted within the \"Accounting Span\" being asked"
 msgstr ""
+"Saldo: proporcionará los Saldos para las cuentas que están siendo "
+"consultadas dentro del \"Lapso Contable\" que está siendo pedido"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Based on Other Reports"
-msgstr ""
+msgstr "Basado en Otros Reportes"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "By setting this field to \"True\" will avoid this line from printing in your report. It is useful to set some lines to invisible when using them to make some computations but you do not want them to appear in the report printing."
 msgstr ""
+"Al establecer este campo a \"Verdadero\" evitará que esta línea sea impresa "
+"en su reporte. Es útil establecer algunas líneas a invisible cuando se usan "
+"para realizar algunos cálculos pero no se desean que aparezcan en la "
+"impresión del reporte."
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_cambioenelcapitaldetrabajo1
@@ -400,47 +412,47 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.ifrs,state:0
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: field:ifrs.lines,inv_sign:0
 msgid "Change Sign to Amount"
-msgstr ""
+msgstr "Cambiar Signo a la Cantidad"
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,code:0
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #. module: ifrs_report
 #: help:ifrs.lines,comment:0
 msgid "Comments or questions about this ifrs line"
-msgstr ""
+msgstr "Comentarios o preguntas sobre este línea de NIIF"
 
 #. module: ifrs_report
 #: field:ifrs.lines,comment:0
 msgid "Comments/Question"
-msgstr ""
+msgstr "Comentarios/Preguntas"
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,company_id:0
 #: field:ifrs.lines,company_id:0
 #: field:ifrs.report.wizard,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Compañía"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,company_id:0
 #: help:ifrs.lines,company_id:0
 #: help:ifrs.report.wizard,company_id:0
 msgid "Company name"
-msgstr ""
+msgstr "Nombre de la compañía"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Comparison Type"
-msgstr ""
+msgstr "Tipo de Comparación"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_comportamientodegastosventas0
@@ -450,7 +462,7 @@ msgstr ""
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Compute"
-msgstr ""
+msgstr "Calcular"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,operator:0
@@ -466,30 +478,32 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: field:ifrs.lines,cons_ids:0
 msgid "Consolidated Accounts"
-msgstr ""
+msgstr "Cuentas Consolidadas"
 
 #. module: ifrs_report
 #: field:ifrs.lines,analytic_ids:0
 msgid "Consolidated Analytic Accounts"
-msgstr ""
+msgstr "Cuentas Analíticas Consolidadas"
 
 #. module: ifrs_report
 #: field:ifrs.lines,constant:0
 #: selection:ifrs.lines,type:0
 msgid "Constant"
-msgstr ""
+msgstr "Constante"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: field:ifrs.lines,constant_type:0
 #: help:ifrs.lines,constant_type:0
 msgid "Constant Type"
-msgstr ""
+msgstr "Tipo Constante"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Constant: This type is the one that just bears constant variable like Days of Period, Periods of Fiscal Year or Month of FiscalYear"
 msgstr ""
+"Constante: Este tipo es el que lleva un valor constante como Días del "
+"Período, Períodos del Año Fiscal o Mes del Año Fiscal"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
@@ -528,12 +542,14 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,value:0
 msgid "Credit"
-msgstr ""
+msgstr "Crédito"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Credit: Will yield only the Credits for the accounts being consulted within the \"Accounting Span\" being asked"
 msgstr ""
+"Crédito: Proporcionará solamente los Créditos para las cuentas que se están "
+"consultando dentro del \"Lapso Contable\" que se pide."
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_cuentasporcobrarventasnetasdelaoperacion0
@@ -544,7 +560,7 @@ msgstr ""
 #: field:ifrs.ifrs,currency_id:0
 #: field:ifrs.report.wizard,currency_id:0
 msgid "Currency"
-msgstr ""
+msgstr "Divisa"
 
 #. module: ifrs_report
 #: view:ifrs.report.wizard:ifrs_report.view_ifrs_report
@@ -556,6 +572,8 @@ msgstr ""
 #: help:ifrs.report.wizard,currency_id:0
 msgid "Currency at which this report will be expressed. If not selected will be used the one set in the company"
 msgstr ""
+"Divisa en la cual este reporte se imprimirá. Sino se selecciona una se usará "
+"la que está establecida en la compañia."
 
 #. module: ifrs_report
 #: model:ifrs.ifrs,title:ifrs_report.ifrs_ifrs_demo_empty
@@ -629,36 +647,43 @@ msgstr ""
 #: help:ifrs.report.wizard,exchange_date:0
 msgid "Date of change that will be printed in the report, with respect to the currency of the company"
 msgstr ""
+"Fecha de Cambio que se imprimirá en el reporte, con respecto a la divisa de "
+"la compañía."
 
 #. module: ifrs_report
 #: selection:ifrs.lines,constant_type:0
 msgid "Days of Period"
-msgstr ""
+msgstr "Días del Período"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,value:0
 msgid "Debit"
-msgstr ""
+msgstr "Débito"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Debit: Will yield only the Debits for the accounts being consulted within the \"Accounting Span\" being asked"
 msgstr ""
+"Débito: Proporcionará solamente los Débitos para las cuentas que se "
+"consultan dentro del \"Lapso contable\" pedido."
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,description:0
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,type:0
 msgid "Detail"
-msgstr ""
+msgstr "Detalle"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Detail: This type is the one that is in direct contact with Accounting Accounts. You can select View Accounts (Summarized Accounts) and/or Normal Accounts (Movement Accounts)"
 msgstr ""
+"Detalle: Este tipo es el que está en contacto directo con las Cuentas "
+"Contables. Vd. puede seleccionar Cuentas Vistas (Cuentas de Mayor) y/o "
+"Cuentas Normales (Cuentas de Movimientos)"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_diasinventariodeproductoterminado0
@@ -702,12 +727,12 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.ifrs,state:0
 msgid "Done"
-msgstr ""
+msgstr "Realizado"
 
 #. module: ifrs_report
 #: selection:ifrs.ifrs,state:0
 msgid "Draft"
-msgstr ""
+msgstr "Borrador"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_efectivoeinversiones0
@@ -743,27 +768,33 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Each report has to be related to a Company. It is a mandatory field not an option. This is due to the fact that you will be using Accounting Accounts that are only related to the company you set Here."
 msgstr ""
+"Cada reporte debe estar relacionado con una Compañía. Es un campo "
+"obligatorio, no opcional. Esto es debido a que Vd. estará usando Cuentas "
+"Contables que están solamente relacionadas con la compañía que Vd. tiene "
+"configurada aquí."
 
 #. module: ifrs_report
 #: selection:ifrs.lines,acc_val:0
 msgid "Ending Values"
-msgstr ""
+msgstr "Valores Finales"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Ending Values: Will yield the values at the end of the period you are consulting on"
 msgstr ""
+"Valores Finales: Proporcionará los valores al final del período que Vd. está "
+"consultando."
 
 #. module: ifrs_report
 #: code:addons/ifrs_report/model/account.py:50
 #, python-format
 msgid "Error !"
-msgstr ""
+msgstr "¡ Error !"
 
 #. module: ifrs_report
 #: field:ifrs.report.wizard,exchange_date:0
 msgid "Exchange Date"
-msgstr ""
+msgstr "Fecha de Cambio"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_financiamientoneto0
@@ -793,12 +824,12 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,constant_type:0
 msgid "FY's Month"
-msgstr ""
+msgstr "Mes del Año Fiscal"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,constant_type:0
 msgid "FY's Periods"
-msgstr ""
+msgstr "Períodos del Año Fiscal"
 
 #. module: ifrs_report
 #: help:ifrs.lines,constant:0
@@ -813,19 +844,19 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.lines,total_ids:0
 msgid "First Operand"
-msgstr ""
+msgstr "Primer Operando"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,operator:0
 msgid "First Operand Only"
-msgstr ""
+msgstr "Solo Primer Operando"
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,fiscalyear_id:0
 #: field:ifrs.report.wizard,fiscalyear_id:0
 #: model:ir.model,name:ifrs_report.model_account_fiscalyear
 msgid "Fiscal Year"
-msgstr ""
+msgstr "Año Fiscal"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,fiscalyear_id:0
@@ -837,16 +868,18 @@ msgstr ""
 #: help:ifrs.report.wizard,period:0
 msgid "Fiscal period to assign to the invoice. Keep empty to use the period of the current date."
 msgstr ""
+"Período Fiscal a asignar a la factura. Manténgalo vacío para el período de "
+"la fecha actual"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,report_type:0
 msgid "Force Period"
-msgstr ""
+msgstr "Forzar Período"
 
 #. module: ifrs_report
 #: field:ifrs.report.wizard,period:0
 msgid "Force period"
-msgstr ""
+msgstr "Forzar período"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_gastosyproductosfinancieros0
@@ -906,7 +939,7 @@ msgstr ""
 #: field:ifrs.lines,ifrs_id:0
 #: model:ir.actions.act_window,name:ifrs_report.action_ifrs_ifrs_form
 msgid "IFRS"
-msgstr ""
+msgstr "NIIF"
 
 #. module: ifrs_report
 #: model:ir.ui.menu,name:ifrs_report.sub_menu_ifrs_wizard
@@ -927,13 +960,13 @@ msgstr ""
 #: view:ifrs.lines:ifrs_report.view_ifrs_lines_form
 #: view:ifrs.lines:ifrs_report.view_ifrs_lines_tree
 msgid "IFRS Line"
-msgstr ""
+msgstr "Línea NIIF"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: model:ir.actions.act_window,name:ifrs_report.action_ifrs_lines_form
 msgid "IFRS Lines"
-msgstr ""
+msgstr "Líneas de NIIF"
 
 #. module: ifrs_report
 #: view:ifrs.lines:ifrs_report.view_board_search
@@ -948,7 +981,7 @@ msgstr ""
 #. module: ifrs_report
 #: view:ifrs.report.wizard:ifrs_report.view_ifrs_report
 msgid "IFRS Report"
-msgstr ""
+msgstr "Reporte NIIF"
 
 #. module: ifrs_report
 #: model:ir.actions.report.xml,name:ifrs_report.ifrs_landscape_pdf
@@ -983,7 +1016,7 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.ifrs,ifrs_lines_ids:0
 msgid "IFRS lines"
-msgstr ""
+msgstr "Líneas NIIF"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_importesobreventaneta0
@@ -1066,27 +1099,42 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "If you check the field \"Change Sign to Amount\", the initial value of the amount will be multiplied by minus one (-1). So a negative number will become a positive number and conversely. Sometimes you are willing to change a sign to a Financial Balance due to conventions."
 msgstr ""
+"Si Vd. marcó el campo \"Cambiar Signo a la Cantidad\", el valor inicial de "
+"la cantidad será multiplicado por menos uno (-1). De tal forma que un número "
+"negativo se convertirá en un número positivo y viceversa."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "In this field, regarding a time span, you will indicate which (initial, variation, ending) amount from the accounts your are consulting on is the one you want for the period you are asking. This field is only available when lines are of type \"Detail\". Available options are:"
 msgstr ""
+"En este campo, con respecto a un lapso de tiempo, Vd. indicará cual cantidad "
+"(inicial, variación, final) de las cuentas que Vd. está consultando es la "
+"que desea para el período que Vd. pide. Este campo solo está disponible "
+"cuando las líneas son de tipo \"Detalle\". Las opciones disponibles son:"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "In this field, regarding a value, you will indicate which (debit, credit, balance) amount from the accounts your are consulting on is the one you want for the period you are asking. This field is only available when lines are of type \"Detail\". Available options are:"
 msgstr ""
+"En este campo, con respecto a un valor, Vd. indicará cual cantidad (débito, "
+"crédito, saldo) de las cuentas que está consultado es lo que Vd. desea del "
+"período pedido. Este campo solo está disponible cuando las líneas son de "
+"tipo \"Detalle\". Las opciones disponibles son:"
 
 #. module: ifrs_report
 #: help:ifrs.report.wizard,report_type:0
 msgid "Indicates if the report it will be printed for the entire fiscal year, or for a particular period"
 msgstr ""
+"Indica si el reporte se imprimirá para el Año Fiscal completo o para un "
+"período en particular."
 
 #. module: ifrs_report
 #: help:ifrs.lines,priority:0
 #: help:ifrs.lines,sequence:0
 msgid "Indicates the order of the line in the report. The sequence must be unique and unrepeatable"
 msgstr ""
+"Indica el orden de la línea en el reporte. La secuencia debe ser única e "
+"irrepetible."
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_indicesdeactividad0
@@ -1111,33 +1159,35 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,acc_val:0
 msgid "Initial Values"
-msgstr ""
+msgstr "Valores Iniciales"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Initial Values: Will yield the values at the beginning of the period you are consulting on"
 msgstr ""
+"Valores Iniciales: Proporcionará los valores al comienzo del período que Vd. "
+"está consultando"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_tree
 msgid "International Financial Reporting Standards"
-msgstr ""
+msgstr "Normas Internacionales de Información Financiera"
 
 #. module: ifrs_report
 #: field:ifrs.lines,invisible:0
 msgid "Invisible"
-msgstr ""
+msgstr "Invisible"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Invisible Line"
-msgstr ""
+msgstr "Línea Invisible"
 
 #. module: ifrs_report
 #: model:ir.model,name:ifrs_report.model_account_move_line
 msgid "Journal Items"
-msgstr ""
+msgstr "Apuntes contables"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
@@ -1171,17 +1221,17 @@ msgstr ""
 #. module: ifrs_report
 #: help:ifrs.lines,value:0
 msgid "Leaving blank means Balance"
-msgstr ""
+msgstr "Dejarlo en blanco significa que se usará Saldo"
 
 #. module: ifrs_report
 #: help:ifrs.lines,acc_val:0
 msgid "Leaving blank means YTD"
-msgstr ""
+msgstr "Dejarlo en blanco significa Saldo a la Fecha"
 
 #. module: ifrs_report
 #: help:ifrs.lines,operator:0
 msgid "Leaving blank will not take into account Operands"
-msgstr ""
+msgstr "Dejarlo en Blanco no tomará en cuenta los Operandos"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,logical_false:0
@@ -1204,17 +1254,17 @@ msgstr ""
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Line Amount"
-msgstr ""
+msgstr "Monto de la Línea"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Line Name"
-msgstr ""
+msgstr "Nombre de Línea"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Line Type"
-msgstr ""
+msgstr "Tipo de Línea"
 
 #. module: ifrs_report
 #: help:ifrs.lines,name:0
@@ -1263,7 +1313,7 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.lines,comparison:0
 msgid "Make Comparison"
-msgstr ""
+msgstr "Realizar Comparación"
 
 #. module: ifrs_report
 #: help:ifrs.lines,comparison:0
@@ -1271,6 +1321,9 @@ msgid "Make a Comparison against the previous period.\n"
 "That is, period X(n) minus period X(n-1)\n"
 "Leaving blank will not make any effects"
 msgstr ""
+"Hace una Comparación contra el período previo\n"
+"Esto es, período X(n) menos período X(n-1)\n"
+"Dejarlo en Blanco no tendrá efecto alguno."
 
 #. module: ifrs_report
 #: help:ifrs.report.wizard,report_format:0
@@ -1291,7 +1344,7 @@ msgstr ""
 #: field:ifrs.ifrs,name:0
 #: field:ifrs.lines,name:0
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,comparison:0
@@ -1301,17 +1354,19 @@ msgstr ""
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Notes & Comments"
-msgstr ""
+msgstr "Notas y Comentarios"
 
 #. module: ifrs_report
 #: field:ifrs.report.wizard,columns:0
 msgid "Number of Columns"
-msgstr ""
+msgstr "Número de columnas"
 
 #. module: ifrs_report
 #: help:ifrs.report.wizard,columns:0
 msgid "Number of columns that will be printed in the report: -Two Colums(02),-Twelve Columns(12)"
 msgstr ""
+"Número de columnas que se imprimirán en el reporte: -Dos Columnas (02), -"
+"Doce Columnas (12)"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,constant_type:0
@@ -1358,17 +1413,17 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.lines,operator:0
 msgid "Operator"
-msgstr ""
+msgstr "Operador"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Other Info"
-msgstr ""
+msgstr "Otra información"
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,ifrs_ids:0
 msgid "Other Reportes"
-msgstr ""
+msgstr "Otros Reportes"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
@@ -1450,7 +1505,7 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.lines,parent_id:0
 msgid "Parent"
-msgstr ""
+msgstr "Padre"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
@@ -1472,7 +1527,7 @@ msgstr ""
 #: selection:ifrs.lines,comparison:0
 #: selection:ifrs.lines,operator:0
 msgid "Percentage"
-msgstr ""
+msgstr "Porcentaje"
 
 #. module: ifrs_report
 #: view:website:ifrs_report.external_layout_header
@@ -1498,6 +1553,8 @@ msgstr ""
 #: help:ifrs.report.wizard,target_move:0
 msgid "Print All Accounting Entries or just Posted Accounting Entries"
 msgstr ""
+"Imprimir todos los Asientos Contables o solo los Asientos Contables "
+"Posteados."
 
 #. module: ifrs_report
 #: model:ir.actions.act_window,name:ifrs_report.wizard_report_print
@@ -1508,12 +1565,12 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 #: model:ir.actions.act_window,name:ifrs_report.create_wizard_report_action
 msgid "Print Report"
-msgstr ""
+msgstr "Imprimir Reporte"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,operator:0
 msgid "Product"
-msgstr ""
+msgstr "Producto"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_pruebadelacido0
@@ -1594,12 +1651,12 @@ msgstr ""
 #: selection:ifrs.lines,comparison:0
 #: selection:ifrs.lines,operator:0
 msgid "Ratio"
-msgstr ""
+msgstr "Cociente/Razón"
 
 #. module: ifrs_report
 #: selection:ifrs.ifrs,state:0
 msgid "Ready"
-msgstr ""
+msgstr "Listo"
 
 #. module: ifrs_report
 #: view:ifrs.lines:ifrs_report.view_board_search
@@ -1614,22 +1671,22 @@ msgstr ""
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Report Lines"
-msgstr ""
+msgstr "Líneas del Reporte"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,code:0
 msgid "Report code"
-msgstr ""
+msgstr "Código de Reporte"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,name:0
 msgid "Report name"
-msgstr ""
+msgstr "Nombre del Reporte"
 
 #. module: ifrs_report
 #: help:ifrs.ifrs,title:0
 msgid "Report title that will be printed"
-msgstr ""
+msgstr "Título del Reporte que será impreso"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,logical_false:0
@@ -1751,7 +1808,7 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.lines,operand_ids:0
 msgid "Second Operand"
-msgstr ""
+msgstr "Segundo Operando"
 
 #. module: ifrs_report
 #: help:ifrs.lines,logical_operation:0
@@ -1763,23 +1820,30 @@ msgstr ""
 #: field:ifrs.lines,priority:0
 #: field:ifrs.lines,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Secuencia"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Set the sequence for this line, the sequence will represent the position that this line will have within the report. It is advisable that you select a number multiple of ten thus if some new line in between your old lines is created it could fit among them. Each sequence should be unique within the report."
 msgstr ""
+"Establezca la secuencia para esta línea, la secuencia representará la "
+"posición que esta línea tendrá dentro del reporte. Se aconseja que "
+"seleccione un número múltiplo de diez de tal forma que si se crea una nueva "
+"línea entre las viejas la nueva encaje entre las viejas. Cada secuencia es "
+"única dentro del reporte."
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,help:0
 #: field:ifrs.lines,help:0
 msgid "Show Help"
-msgstr ""
+msgstr "Mostrar Ayuda"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Some times it is useful that each report has its own code because doing so will render the report easier to find"
 msgstr ""
+"En ocasiones es útil que cada reporte tenga su propio código dado que al "
+"hacerlo así resultará mas fácil encontrarlo"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,report_format:0
@@ -1789,13 +1853,13 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.ifrs,state:0
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,comparison:0
 #: selection:ifrs.lines,operator:0
 msgid "Subtraction"
-msgstr ""
+msgstr "Substracción"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_totalactivo0
@@ -1815,7 +1879,7 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.report.wizard,target_move:0
 msgid "Target Moves"
-msgstr ""
+msgstr "Movimientos Objetivo"
 
 #. module: ifrs_report
 #: field:ifrs.lines,tax_code_ids:0
@@ -1831,47 +1895,86 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "The Title is the one that will be printed in the Heading of your Report. It is important to notice, that the Title is multilanguage, notice the little flag when editing the form. So you can Set the Title in as many languagues as you have them deployed in your system. If Your Preferred Language is English right now, then set the Title in English. To Set it in, e.g. Spanish, change your Preferred Language to Spanish and Set your Title Again. Those Languages have to be deployed first to be used."
 msgstr ""
+"El Título es el que se imprimirá en el Encabezado de su Reporte. Es "
+"importante notar, que el Título es multilenguaje, note la banderilla cuando "
+"edita el formulario. Así que Vd. puede establecer el Título en tantos "
+"idiomas como los tenga implementados en su sistema. Si su Idioma Preferido "
+"es Inglés en este momento, entonces establezca el Título en Inglés. Para "
+"establecerlo en, p.e. Español, cambie su Idioma Preferido a Español y "
+"establezca su Título nuevamente. Los Idiomas deben ser previamente "
+"implementados primero para que se puedan usar."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "The currency set below is not an option nor you will be able to set its valued. It is automatically set when you select the company above. Thus the currency in this report is regarding the one in the company of the report. You can later set you own currency when print the report."
 msgstr ""
+"La divisa establecida abajo no es una opción ni tampoco podrá establecer Vd. "
+"su valor. Éste se establece automáticamente a partir de la compañía que "
+"seleccionó arriba. De tal forma que la divisa en este reporte es con "
+"respecto a la compañía del reporte. Vd. mas tarde podrá establecer su propia "
+"divisa cuando imprima el reporte."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "The name that this report will bear within the system. This name could be as descriptive as you want in order to improve the useability of it."
 msgstr ""
+"El nombre que este reporte llevará dentro del sistema. Este nombre puede ser "
+"tan descriptivo como desea con el fin de mejorar la usabilidad del mismo."
 
 #. module: ifrs_report
 #: sql_constraint:ifrs.lines:0
 msgid "The sequence already have been set in another IFRS line"
-msgstr ""
+msgstr "La secuencia ya se ha establecido en otra línea de NIIF"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "There are four types of Lines to fill with the report:"
-msgstr ""
+msgstr "Hay cuatro tipo de Líneas con las cuales llenar el reporte:"
 
 #. module: ifrs_report
 #: code:addons/ifrs_report/model/account.py:51
 #, python-format
 msgid "There are no special period in %s"
-msgstr ""
+msgstr "No hay período especial en %s"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This concept is somewhat more advanced. It will perform a Comparison between the value resulted for the period being asked and the value for this same line but for the pretty previous period to the one being asked. This operation is perform after the Arithmetic Operator has been performed. If not comparison is defined only the value yield by the Arithmetic Operator will be given."
 msgstr ""
+"Este concepto es un tanto mas avanzado. Ejecutará una Comparación entre el "
+"valor resultante para el período que se pide y el valor para la misma línea "
+"pero para el período inmediato anterior al pedido. Esta operación se ejecuta "
+"después que el Operador Aritmético se ha ejecutado. Sino se define una "
+"comparación solo el valor resultando de la Operación Aritmética se "
+"proporcionará."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This field is to be filled with Accounting Accounts. You can use Accounts of \"View\" Type, if you want to grasp a big amount of accounts, or you can use Move Accounts if you want to pinpoint in nitty-gritty detail which Accounts you want to regard in this line. Be aware that using Move Account could be cumbersome when you have a line that depends on many Accounts, it is better to consolidate them and then come back here and use your consolidated account."
 msgstr ""
+"Este campo es para ser llenado con Cuentas Contables. Vd. puede usar Cuentas "
+"de tipo \"Vista\". si Vd. quiere agarrar una gran cantidad de cuentas, o Vd. "
+"puede usar las cuentas de Movimientos si Vd. quiere precisar con detalle las "
+"cuentas que desear considerar en esta línea. Esté al tanto de que al usar "
+"cuentas de Movimientos puede resultar engorroso cuando Vd. tiene una línea "
+"que depende de muchas cuentas, es mejor que las consolide y luego vuelva "
+"aquí y use su cuenta consolidada."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This field is to be filled with Analytic Accounts. Analytic Accounts serve as a way of filtering data from one Accounting Account. There are chances that you use one single account for multiple purposes though you have been using for a while Analytic Accounts to break down the details regarding that Account. Hence you can use a combination of Accounting Account and Analytic Accounts to retrieve valuable data from the Accounting system to your Line Report. Be aware that all the Accounting Account selected previously will be affected by the Analytic Accounts selected here. If you want one-to-one matches you should create as many lines as you want to fulfill your requirement."
 msgstr ""
+"Este campo es para ser llenado con Cuentas Analíticas. Las Cuentas "
+"Analíticas sirven como una forma de filtrar la información de una Cuenta "
+"Contable. Es posible que Vd. use una sola cuenta contable para múltiples "
+"propósitos sin embargo lleva un rato usando las Cuentas Analíticas para "
+"desglosar los detalles con respecto a esa Cuenta. Por lo tanto, Vd. puede "
+"usar una combinacion de Cuentas Contables y Cuentas Analíticas para obtener "
+"informacion valuable de su sistema contable a la Línea del Reporte. Este "
+"pendiente de que las Cuentas Contables seleccionadas previamente se verán "
+"afectadas por las Cuentas Analíticas seleccionadas aquí. Si desea "
+"combinaciones uno-a-uno deberá crear tantas líneas desee para cumplir su "
+"requerimiento."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
@@ -1897,31 +2000,57 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This field will be the label that will be printed, if \"invisible\" is set to False, in your report. If you want a blank line in your report Just fill at least with one blank space. The name of your lines is traslatable too, so you can switch to your Preferred Language and write the Traslation for your Line."
 msgstr ""
+"Este campo será la etiqueta que se imprimirá en su reporte, si el campo \""
+"Invisible\" no se ha marcado. Si Vd. desea una línea en blanco en su reporte "
+"solo llene esta línea con al menos un espacio en blanco. El nombre de sus "
+"líneas es también traducible, de tal manera que puede cambiar a su Idioma "
+"Preferido y escribir la traducción de su Línea."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This field will summarize the results that are carried on for the Detail, Total & Constant Lines. Its value is modified by the \"Change Sign\" Field. Be aware!"
 msgstr ""
+"Este campo sumará los resultados que se lleven para las Líneas de Detalle, "
+"Total y Constante. Este valor es modificado por el campo \"Cambiar Signo a "
+"la Cantidad\". Esté Pendiente!."
 
 #. module: ifrs_report
 #: help:ifrs.lines,amount:0
 msgid "This field will update when you click the compute button in the IFRS doc form"
 msgstr ""
+"Este campo se actualizará cuando Vd. haga clic en el botón calcular en el "
+"formulario del documento NIIF"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This is the First Operand where you can summarize \"Detail\" Lines and even other Lines of Type \"Total\". All the lines you Select in this field will become the sum of them all. To perform other Arithmetic Operations like subtraction or product, fill this field with the \"First Operand\" and the Second Operand field with the \"Second Operand\" and do not forget to select you arithmetic operation in the \"Arithmetic Operator\" Field."
 msgstr ""
+"Este es el Primer Operando, donde Vd. puede sumarizar Líneas de \"Detalle\" "
+"e incluso otras Líneas de tipo \"Total\". Todas las líneas que Vd. "
+"seleccione en este campo se convertirán en la suma de todas ellas. Para "
+"ejecutar otras Operaciones Aritméticas como sustracción o producto, rellene "
+"este campo con el \"Primer Operando\" y el campo Segundo Operando con el \""
+"Segundo Operando\" y no olvide seleccionar su operación aritmética en el "
+"campo \"Operador Aritmético\"."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This is the Second Operand, here as in the First Operand,  you will be able to summarize \"Detail\" Lines and Lines of Type \"Total\" as well. All the lines you Select in this field will become the sum of them all, and after that the result will be used as the Second Operand for the Arithmetic Operator previously selected after the Arithmetic Operation is performed the ultimate result will be shown as the Amount of the Line. If \"First Operand Only\" arithmetic operator is selected this field will be disregarded."
 msgstr ""
+"Este es el Segundo Operando, aquí como en el Primer Operando, Vd. puede ser "
+"capaz de sumar Líneas de \"Detalle\" y Líneas de tipo \"Total\" también. "
+"Todas las líneas que seleccione en este campo se convertirán en la suma de "
+"sí mismas, y luego dicho resultado se usará como Segundo Operando para el "
+"Operador Aritmético previamente seleccionado, después que se ha ejecutado la "
+"Operación Aritmética el resultado final se mostrará como Cantidad de la "
+"Línea. Si se selecciona \"Solo Primer Operando\" en el Operador Aritmético "
+"este campo no se tendrá en consideración."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "This option define the behavior this lines will have within the report"
 msgstr ""
+"Esta opción define el comportamiento que esta línea tendrá dentro del reporte"
 
 #. module: ifrs_report
 #: view:ifrs.report.wizard:ifrs_report.view_ifrs_report
@@ -1931,34 +2060,36 @@ msgstr ""
 #. module: ifrs_report
 #: field:ifrs.ifrs,title:0
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,type:0
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Total: This type is the one that summarize \"Detail\" Lines, you can even do mathematical operations with them"
 msgstr ""
+"Total: Este tipo es el que sumariza las líneas de \"Detalle\", Vd. incluso "
+"puede realizar operaciones matemáticas con ellas."
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,columns:0
 msgid "Twelve Columns"
-msgstr ""
+msgstr "Doce Columnas"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,columns:0
 msgid "Two Columns"
-msgstr ""
+msgstr "Dos Columnas"
 
 #. module: ifrs_report
 #: view:ifrs.lines:ifrs_report.view_board_search
 #: field:ifrs.lines,type:0
 #: field:ifrs.report.wizard,report_type:0
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_utilidadacumuladaresultados0
@@ -2023,12 +2154,14 @@ msgstr ""
 #. module: ifrs_report
 #: selection:ifrs.lines,acc_val:0
 msgid "Variation in Periods"
-msgstr ""
+msgstr "Variaciones en Períodos"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Variations in Period: Will yield the values throughout the period you are consulting on"
 msgstr ""
+"Variaciones en Período: Proporcionará los valores a lo largo del período que "
+"se está consultando"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_ventasaactivototalpromedio0
@@ -2044,26 +2177,36 @@ msgstr ""
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "When the line is \"Abstract\" type, it will not perform any computation"
 msgstr ""
+"Cuando la línea es de tipo \"Abstracto\", no se ejecutará ningún cálculo"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "When the line is \"Constant\" type, it will only show the constant values"
 msgstr ""
+"Cuando la línea es de tipo \"Constante\", sólo mostrará los valores "
+"constantes"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "When the line is \"Detail\" type, it will summarize the accounts that were selected in the field \"Consolidated Accounts\""
 msgstr ""
+"Cuando la línea es de tipo \"Detalle\", ésta sumará las cuentas que se "
+"seleccionaron en el campo \"Cuentas Consolidadas\""
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "When the line is \"Total\" type, it will perform the operations that are considered in the \"Operator\" & \"Make Comparison\" fields, taking into account the selections for the operands"
 msgstr ""
+"Cuando la línea es de tipo \"Total\", se ejecutarán las operaciones que se "
+"consideran en los \"Operador Aritmético\" y \"Realizar Comparación\", "
+"tomando en cuenta las selecciones para los operandos."
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "You have to fill the field below with Lines that retrieves values from your Accounting Accounts"
 msgstr ""
+"Vd. tiene que rellenar el campo de abajo con Líneas que devuelvan valores de "
+"sus Cuentas Contables"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,logical_false:0
@@ -2115,4 +2258,3 @@ msgstr ""
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_ventasnetasdelaoperacion0
 msgid "ventas netas de la operacion"
 msgstr ""
-
