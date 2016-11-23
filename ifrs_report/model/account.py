@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from openerp.osv import osv
 import datetime
 import time
+from openerp.osv import osv
 from openerp.tools.translate import _
 
 
