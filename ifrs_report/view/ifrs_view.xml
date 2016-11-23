@@ -280,6 +280,16 @@
                                               </tree>
                                           </field>
                                       </page>
+                                      <page string='Taxes' >
+                                          <group colspan='2' attrs="{'invisible':['|',('type','!=','detail'),('help','=',False)]}">
+                                              <i><label string='This field is to be filled with Tax Codes. Tax Codes serve as a way of filtering data from one Accounting Account. There are chances that you use one single account for multiple purposes though you have been using for a while Tax Codes to break down the details regarding that Account. Hence you can use a combination of Accounting Account and Tax Codes to retrieve valuable data from the Accounting system to your Line Report. Be aware that all the Accounting Account selected previously will be affected by the Tax Codes selected here. If you want one-to-one matches you should create as many lines as you want to fulfill your requirements.'/></i>
+                                          </group>
+                                          <field colspan='2' name="tax_code_ids" nolabel='1' attrs="{'invisible':[('type','!=','detail')]}">
+                                              <tree>
+                                                  <field name='name'/>
+                                              </tree>
+                                          </field>
+                                      </page>
                                   </notebook>
 
                                 <separator string='First (Left) Operand' colspan='2' attrs="{'invisible':[('type','!=','total')]}"/>

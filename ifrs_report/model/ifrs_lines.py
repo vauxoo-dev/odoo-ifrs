@@ -105,14 +105,8 @@ class IfrsLines(models.Model):
             # Si es de tipo detail
             # If we have to only take into account a set of Journals
             cx['journal_ids'] = [aj_brw.id for aj_brw in brw.journal_ids]
-            analytic = [an.id for an in brw.analytic_ids]
-            # Tomo los ids de las cuentas analiticas de las lineas
-            if analytic:
-                # Si habian cuentas analiticas en la linea, se guardan en el
-                # context y se usan en algun metodo dentro del modulo de
-                # account
-                cx['analytic'] = analytic
-
+            cx['analytic'] = [an.id for an in brw.analytic_ids]
+            cx['ifrs_tax'] = [tx.id for tx in brw.tax_code_ids]
             cx['ifrs_partner'] = [p_brw.id for p_brw in brw.partner_ids]
 
             # NOTE: This feature is not yet been implemented
@@ -476,6 +470,9 @@ class IfrsLines(models.Model):
     partner_ids = fields.Many2many(
         'res.partner', 'ifrs_partner_rel', 'ifrs_lines_id',
         'partner_id', string='Partners')
+    tax_code_ids = fields.Many2many(
+        'account.tax.code', 'ifrs_tax_rel', 'ifrs_lines_id',
+        'tax_code_id', string='Tax Codes')
     parent_id = fields.Many2one(
         'ifrs.lines', string='Parent',
         ondelete='set null',
