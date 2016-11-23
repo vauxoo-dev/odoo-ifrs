@@ -210,6 +210,7 @@ class IfrsIfrs(models.Model):
                     lll[2]['cons_ids'] and [] or []
         return res
 
+    # pylint: disable=W8102
     def copy(self, cr, uid, ids, default=None, context=None):
         context = context and dict(context) or {}
         default = default or {}
