@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-23 05:18+0000\n"
-"PO-Revision-Date: 2016-11-23 05:18+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2016-11-23 07:47+0000\n"
+"Last-Translator: Humberto Arocha <hbto@vauxoo.com>\n"
+"Language-Team: Portuguese (Brazil) <http://example.com/projects/odoo-"
+"ifrs/ifrs_report/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_contribucionmarginaldistribucion1
@@ -1935,7 +1937,7 @@ msgstr "Existem quatro tipos de linhas para preencher com o relatório:"
 #: code:addons/ifrs_report/model/account.py:51
 #, python-format
 msgid "There are no special period in %s"
-msgstr "Não há nenhum período especial em% s"
+msgstr "Não há nenhum período especial em %s"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
