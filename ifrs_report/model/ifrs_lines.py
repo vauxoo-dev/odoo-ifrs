@@ -3,8 +3,8 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from __future__ import division
-from openerp import models, fields, api
 import operator as op
+from openerp import models, fields, api
 LOGICAL_RESULT = [
     ('subtract', 'Left - Right'),
     ('addition', 'Left + Right'),
@@ -291,9 +291,8 @@ class IfrsLines(models.Model):
             exchange_date=None, currency_wizard=None, number_month=None,
             target_move=None, pdx=None, undefined=None, two=None,
             one_per=False, bag=None, context=None):
-        """
-        Integrate operand_ids field in the calculation of the amounts for each
-        line
+        """ Integrate operand_ids field in the calculation of the amounts for
+        each line
         @param ifrs_line: linea a calcular monto
         @param period_info: informacion de los periodos del fiscal year
         @param fiscalyear: selected fiscal year
@@ -309,7 +308,7 @@ class IfrsLines(models.Model):
 
         res = {}
         for number_month in range(1, 13):
-            field_name = 'period_{month}'.format(month=number_month)
+            field_name = 'period_%(month)s' % dict(month=number_month)
             bag[ifrs_line.id][field_name] = self._get_amount_value(
                 cr, uid, ids, ifrs_line, period_info, fiscalyear,
                 exchange_date, currency_wizard, number_month, target_move, pdx,
@@ -324,9 +323,8 @@ class IfrsLines(models.Model):
             exchange_date=None, currency_wizard=None, number_month=None,
             target_move=None, pdx=None, undefined=None, two=None,
             one_per=False, bag=None, context=None):
-        """
-        Integrate operand_ids field in the calculation of the amounts for each
-        line
+        """ Integrate operand_ids field in the calculation of the amounts for
+        each line
         @param ifrs_line: linea a calcular monto
         @param period_info: informacion de los periodos del fiscal year
         @param fiscalyear: selected fiscal year
