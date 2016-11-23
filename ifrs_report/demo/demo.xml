@@ -376,19 +376,19 @@
         </record>
         <record id="ifrs_lines_total_revenue_condition_greater" model="ifrs.lines">
             <field eval="[(6,0,[])]" name="operand_ids"/>
-            <field name="name">CONDITION: IF DEBIT &gt; CREDIT THEN CREDIT ELSE DEBIT</field>
+            <field name="name">CONDITION: IF DEBIT &gt; CREDIT THEN DEBIT ELSE CREDIT</field>
             <field eval="235" name="sequence"/>
             <field name="inv_sign" eval="0"/>
             <field name="invisible" eval="0"/>
             <field eval="[(6,0,[])]" name="cons_ids"/>
             <field name="ifrs_id" ref="ifrs_ifrs_demo"/>
-            <field name="total_ids" eval="[(6,0,[ref('ifrs_lines_detail_revenue_credit')])]"/>
-            <field name="operand_ids" eval="[(6,0,[ref('ifrs_lines_detail_revenue_debit')])]"/>
+            <field name="total_ids" eval="[(6,0,[ref('ifrs_lines_detail_revenue_debit')])]"/>
+            <field name="operand_ids" eval="[(6,0,[ref('ifrs_lines_detail_revenue_credit')])]"/>
             <field name="type">total</field>
             <field name="operator">condition</field>
             <field name="logical_operation">gt</field>
-            <field name="logical_true">rg</field>
-            <field name="logical_false">lf</field>
+            <field name="logical_true">lf</field>
+            <field name="logical_false">rg</field>
         </record>
         <record id="ifrs_lines_detail_revenue_analytic" model="ifrs.lines">
             <field eval="[(6,0,[])]" name="operand_ids"/>
