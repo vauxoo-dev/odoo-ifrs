@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-23 05:18+0000\n"
-"PO-Revision-Date: 2016-11-23 06:28+0000\n"
+"PO-Revision-Date: 2016-11-23 06:30+0000\n"
 "Last-Translator: Humberto Arocha <hbto@vauxoo.com>\n"
 "Language-Team: Spanish <http://example.com/projects/odoo-"
 "ifrs/ifrs_report/es/>\n"
@@ -143,7 +143,7 @@ msgstr ">="
 msgid "A Fiscal Year is required to compute the values that will be shown in the report as a preview in the lines below"
 msgstr ""
 "Se require un Año Fiscal para calcular los valores que se mostrarán en el "
-"reporte como una previsualización en las líneas de abajo."
+"reporte como una previsualización en las líneas de abajo"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_abstract_title
@@ -212,7 +212,7 @@ msgid "Abstract: This type is the one you have to use to create label that just 
 msgstr ""
 "Abstracto: Este tipo es el que Vd. tiene que usar para crear Etiquetas que "
 "solo se impriman en el reporte. Esta línea no contiene valores en absoluto y "
-"tampoco realiza cálculos."
+"tampoco realiza cálculos"
 
 #. module: ifrs_report
 #: model:ir.model,name:ifrs_report.model_account_period
@@ -560,7 +560,7 @@ msgstr "Crédito"
 msgid "Credit: Will yield only the Credits for the accounts being consulted within the \"Accounting Span\" being asked"
 msgstr ""
 "Crédito: Proporcionará solamente los Créditos para las cuentas que se están "
-"consultando dentro del \"Lapso Contable\" que se pide."
+"consultando dentro del \"Lapso Contable\" que se pide"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_cuentasporcobrarventasnetasdelaoperacion0
@@ -584,7 +584,7 @@ msgstr "Currency Options"
 msgid "Currency at which this report will be expressed. If not selected will be used the one set in the company"
 msgstr ""
 "Divisa en la cual este reporte se imprimirá. Sino se selecciona una se usará "
-"la que está establecida en la compañia."
+"la que está establecida en la compañía"
 
 #. module: ifrs_report
 #: model:ifrs.ifrs,title:ifrs_report.ifrs_ifrs_demo_empty
@@ -659,7 +659,7 @@ msgstr "DIFERENCIA DE INVENTARIO POR ACLARAR"
 msgid "Date of change that will be printed in the report, with respect to the currency of the company"
 msgstr ""
 "Fecha de Cambio que se imprimirá en el reporte, con respecto a la divisa de "
-"la compañía."
+"la compañía"
 
 #. module: ifrs_report
 #: selection:ifrs.lines,constant_type:0
@@ -676,7 +676,7 @@ msgstr "Débito"
 msgid "Debit: Will yield only the Debits for the accounts being consulted within the \"Accounting Span\" being asked"
 msgstr ""
 "Débito: Proporcionará solamente los Débitos para las cuentas que se "
-"consultan dentro del \"Lapso contable\" pedido."
+"consultan dentro del \"Lapso contable\" pedido"
 
 #. module: ifrs_report
 #: field:ifrs.ifrs,description:0
@@ -794,7 +794,7 @@ msgstr "Valores Finales"
 msgid "Ending Values: Will yield the values at the end of the period you are consulting on"
 msgstr ""
 "Valores Finales: Proporcionará los valores al final del período que Vd. está "
-"consultando."
+"consultando"
 
 #. module: ifrs_report
 #: code:addons/ifrs_report/model/account.py:50
@@ -882,7 +882,7 @@ msgstr "Ejercicio Fiscal a ser usado en el reporte"
 msgid "Fiscal period to assign to the invoice. Keep empty to use the period of the current date."
 msgstr ""
 "Período Fiscal a asignar a la factura. Manténgalo vacío para el período de "
-"la fecha actual"
+"la fecha actual."
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,report_type:0
@@ -1150,7 +1150,7 @@ msgstr ""
 msgid "Indicates if the report it will be printed for the entire fiscal year, or for a particular period"
 msgstr ""
 "Indica si el reporte se imprimirá para el Año Fiscal completo o para un "
-"período en particular."
+"período en particular"
 
 #. module: ifrs_report
 #: help:ifrs.lines,priority:0
@@ -1158,7 +1158,7 @@ msgstr ""
 msgid "Indicates the order of the line in the report. The sequence must be unique and unrepeatable"
 msgstr ""
 "Indica el orden de la línea en el reporte. La secuencia debe ser única e "
-"irrepetible."
+"irrepetible"
 
 #. module: ifrs_report
 #: model:ifrs.lines,name:ifrs_report.ifrs_lines_indicesdeactividad0
@@ -1354,7 +1354,7 @@ msgid "Make a Comparison against the previous period.\n"
 msgstr ""
 "Hace una Comparación contra el período previo\n"
 "Esto es, período X(n) menos período X(n-1)\n"
-"Dejarlo en Blanco no tendrá efecto alguno."
+"Dejarlo en Blanco no tendrá efecto alguno"
 
 #. module: ifrs_report
 #: help:ifrs.report.wizard,report_format:0
@@ -1584,8 +1584,7 @@ msgstr "Imprimir"
 #: help:ifrs.report.wizard,target_move:0
 msgid "Print All Accounting Entries or just Posted Accounting Entries"
 msgstr ""
-"Imprimir todos los Asientos Contables o solo los Asientos Contables "
-"Posteados."
+"Imprimir todos los Asientos Contables o solo los Asientos Contables Asentados"
 
 #. module: ifrs_report
 #: model:ir.actions.act_window,name:ifrs_report.wizard_report_print
@@ -2072,7 +2071,7 @@ msgid "This field will summarize the results that are carried on for the Detail,
 msgstr ""
 "Este campo sumará los resultados que se lleven para las Líneas de Detalle, "
 "Total y Constante. Este valor es modificado por el campo \"Cambiar Signo a "
-"la Cantidad\". Esté Pendiente!."
+"la Cantidad\". Esté Pendiente!"
 
 #. module: ifrs_report
 #: help:ifrs.lines,amount:0
@@ -2131,8 +2130,8 @@ msgstr "Total"
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
 msgid "Total: This type is the one that summarize \"Detail\" Lines, you can even do mathematical operations with them"
 msgstr ""
-"Total: Este tipo es el que sumariza las líneas de \"Detalle\", Vd. incluso "
-"puede realizar operaciones matemáticas con ellas."
+"Total: Este tipo es el que suma las líneas de \"Detalle\", Vd. incluso puede "
+"realizar operaciones matemáticas con ellas"
 
 #. module: ifrs_report
 #: selection:ifrs.report.wizard,columns:0
@@ -2259,7 +2258,7 @@ msgid "When the line is \"Total\" type, it will perform the operations that are 
 msgstr ""
 "Cuando la línea es de tipo \"Total\", se ejecutarán las operaciones que se "
 "consideran en los \"Operador Aritmético\" y \"Realizar Comparación\", "
-"tomando en cuenta las selecciones para los operandos."
+"tomando en cuenta las selecciones para los operandos"
 
 #. module: ifrs_report
 #: view:ifrs.ifrs:ifrs_report.view_ifrs_ifrs_form
