@@ -387,7 +387,7 @@
         </record>
         <record id="ifrs_lines_total_revenue_condition_greater" model="ifrs.lines">
             <field eval="[(6,0,[])]" name="operand_ids"/>
-            <field name="name">CONDITION: IF DEBIT &gt; CREDIT THEN DEBIT ELSE CREDIT</field>
+            <field name="name">CONDITION: IF DEBIT &gt; CREDIT THEN CREDIT ELSE DEBIT</field>
             <field eval="250" name="sequence"/>
             <field name="inv_sign" eval="0"/>
             <field name="invisible" eval="0"/>
@@ -398,8 +398,8 @@
             <field name="type">total</field>
             <field name="operator">condition</field>
             <field name="logical_operation">gt</field>
-            <field name="logical_true">lf</field>
-            <field name="logical_false">rg</field>
+            <field name="logical_true">rg</field>
+            <field name="logical_false">lf</field>
         </record>
         <!-- <function model="ifrs.ifrs" name="compute"> -->
         <!--     <value eval="[ref('ifrs_ifrs_demo')]"/> -->
