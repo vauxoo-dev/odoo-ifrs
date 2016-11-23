@@ -288,7 +288,7 @@ class IfrsLines(models.Model):
 
     def _get_dict_amount_with_operands(
             self, cr, uid, ids, ifrs_line, period_info=None, fiscalyear=None,
-            exchange_date=None, currency_wizard=None, number_month=None,
+            exchange_date=None, currency_wizard=None, month_number=None,
             target_move=None, pdx=None, undefined=None, two=None,
             one_per=False, bag=None, context=None):
         """ Integrate operand_ids field in the calculation of the amounts for
@@ -298,7 +298,7 @@ class IfrsLines(models.Model):
         @param fiscalyear: selected fiscal year
         @param exchange_date: date of change currency
         @param currency_wizard: currency in the report
-        @param number_month: period number
+        @param month_number: period number
         @param target_move: target move to consider
         """
 
