@@ -146,7 +146,7 @@ class IfrsIfrs(models.Model):
             res = _('ALL PERIODS OF THE FISCALYEAR')
         else:
             period = self.env['account.period'].browse(period_id)
-            res = '{name} [{code}]'.format(name=period.name, code=period.code)
+            res = '{name} [{code}]' % dict(name=period.name, code=period.code)
         return res
 
     def step_sibling(self, cr, uid, old_id, new_id, context=None):
