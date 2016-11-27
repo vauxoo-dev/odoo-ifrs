@@ -471,6 +471,10 @@ class IfrsLines(models.Model):
     tax_code_ids = fields.Many2many(
         'account.tax.code', 'ifrs_tax_rel', 'ifrs_lines_id',
         'tax_code_id', string='Tax Codes')
+    filter_id = fields.Many2one(
+        'ir.filters', string='Custom Filter',
+        ondelete='set null',
+        domain=("[('model_id','=','account.move.line')]"))
     parent_id = fields.Many2one(
         'ifrs.lines', string='Parent',
         ondelete='set null',
