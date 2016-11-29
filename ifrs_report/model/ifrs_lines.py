@@ -5,7 +5,7 @@
 from __future__ import division
 import operator as op
 from openerp import models, fields, api
-from openerp.tools.safe_eval import safe_eval as eval
+from openerp.tools.safe_eval import safe_eval as eval  # pylint: disable=W0622
 LOGICAL_RESULT = [
     ('subtract', 'Left - Right'),
     ('addition', 'Left + Right'),
